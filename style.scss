@@ -41,7 +41,7 @@ a {
 
   .billing-container {
     max-width: 1319px !important;
-    max-height: 879px !important;
+    max-height: 1200px !important;
     border-radius: 32px;
     background: linear-gradient(304.24deg, #f8f8ff 0%, #ffffff 86.71%);
     box-shadow: 0px 49px 32px -19px rgba(56, 56, 150, 0.15);
@@ -71,6 +71,12 @@ a {
 
       ul {
         gap: 8px;
+        li {
+          cursor: pointer;
+        }
+        li:last-child::after {
+          display: none !important;
+        }
         .link-container {
           gap: 10px;
           padding: 8px 8px 8px 16px;
@@ -121,12 +127,16 @@ a {
       .table-container {
         margin-top: 50px;
         margin-bottom: 81px;
-        table tr td {
-          padding: 8px 16px !important;
+        table tr {
+          cursor: pointer;
+          td {
+            padding: 8px 16px !important;
+          }
+          th {
+            padding-inline: 16px !important;
+          }
         }
-        table tr th {
-          padding-inline: 16px !important;
-        }
+
         .active {
           background: #ffffff;
           box-shadow: 0px 8px 19px rgba(223, 223, 253, 0.6);
