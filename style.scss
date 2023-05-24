@@ -111,7 +111,7 @@ a {
         .logout {
           position: absolute;
           bottom: 29px;
-          left: 16px;
+          left: 24px;
         }
         & .active {
           position: relative;
@@ -121,7 +121,7 @@ a {
           content: "";
           width: 6px;
           height: 100%;
-          left: 0;
+          left: -1rem;
           background-color: $color-four;
           background: #ee4d38;
           border-radius: 24px;
@@ -164,7 +164,7 @@ a {
         .load-more {
           text-decoration: underline !important;
           cursor: pointer;
-          color: #ea4c3c;
+          color: $color-four;
           margin-top: 1rem;
         }
       }
@@ -183,7 +183,7 @@ a {
       .plan-container {
         padding: 32px;
         gap: 16px;
-        background-color: $color-four;
+        background-color: #fff;
         color: $color-one;
         border-radius: 16px;
         margin-top: 97px;
