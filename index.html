@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div
+        class="
+          vw-100
+          d-flex
+          flex-xl-row flex-column
+          billing-container
+          justify-content-between
+        "
+      >
+        <div class="retacle d-none d-xl-block"></div>
+        <nav class="d-xl-flex d-none sidebar-container flex-row flex-xl-column">
+          <div class="d-flex w-100 profile-container align-items-center">
+            <img class="profile-img" src="https://picsum.photos/200/300" />
+            <div class="d-flex flex-column">
+              <p class="fw-bold text-capitalize fs-6">Ildiko Gaspar</p>
+              <p class="light-text-100 fs-7">@batuhan</p>
+            </div>
+          </div>
+          <ul
+            class="
+              d-flex
+              flex-xl-column flex-row
+              w-100
+              h-100
+              list-container
+              light-text-100
+            "
+          >
+            <li class="active d-flex">
+              <a
+                class="d-flex link-container light-text-100 align-items-center"
+              >
+                <i class="bi bi-columns-gap"></i>
+                <p class="fs-7 text-capitalize">general</p>
+              </a>
+            </li>
+            <li class="d-flex">
+              <a
+                class="d-flex link-container light-text-100 align-items-center"
+              >
+                <i class="bi bi-unlock"></i>
+                <p class="fs-7 text-capitalize">Password</p>
+              </a>
+            </li>
+            <li class="d-flex">
+              <a
+                class="d-flex link-container light-text-100 align-items-center"
+              >
+                <i class="bi bi-envelope"></i>
+                <p class="fs-7 text-capitalize">Invitations</p>
+              </a>
+            </li>
+            <li class="d-flex">
+              <a
+                class="d-flex link-container light-text-100 align-items-center"
+              >
+                <i class="bi bi-receipt"></i>
+                <p class="fs-7 text-capitalize">Billing</p>
+              </a>
+            </li>
+            <li class="d-flex">
+              <a
+                class="d-flex link-container light-text-100 align-items-center"
+              >
+                <i class="bi bi-window-dock"></i>
+                <p class="fs-7 text-capitalize">Apps</p>
+              </a>
+            </li>
+            <li class="d-flex mt-xl-auto">
+              <a
+                class="d-flex link-container light-text-100 align-items-center"
+              >
+                <i class="bi bi-box-arrow-right"></i>
+                <p class="fs-7 text-capitalize">log out</p>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="
+            right-side-container
+            flex-column
+            d-flex
+            flex-xl-row
+            w-100
+            justify-content-between
+          "
+        >
+          <div class="w-100">
+            <h2 class="header">Billing</h2>
+            <div class="d-flex flex-column">
+              <h6>Order History</h6>
+              <p class="light-text-100">
+                Manage billing information and view receips
+              </p>
+            </div>
+            <div class="table-container w-100">
+              <table class="w-100">
+                <tr>
+                  <th class="light-text-100 fw-medium fs-7">Data</th>
+                  <th class="light-text-100 fw-medium fs-7">Type</th>
+                  <th class="light-text-100 fw-medium fs-7">Recipt</th>
+                </tr>
+                <tr class="active">
+                  <td class="fw-medium">Oct. 21, 2021</td>
+                  <td class="fw-medium">Pro Annual</td>
+                  <td>
+                    <button class="btn btn-outline-secondary fs-6 btn-lg">
+                      Download
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-medium">Aug. 21, 2021</td>
+                  <td class="fw-medium">Pro Portfolio</td>
+                  <td>
+                    <button class="btn btn-outline-secondary fs-6 btn-lg">
+                      Download
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-medium">July. 21, 2021</td>
+                  <td class="fw-medium">Sponsored Post</td>
+                  <td>
+                    <button class="btn btn-outline-secondary fs-6 btn-lg">
+                      Download
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="fw-medium">Jun. 21, 2021</td>
+                  <td class="fw-medium">Sponsored Post</td>
+                  <td>
+                    <button class="btn btn-outline-secondary fs-6 btn-lg">
+                      Download
+                    </button>
+                  </td>
+                </tr>
+              </table>
+              <a class="load-more">Load More</a>
+            </div>
+            <div class="d-flex w-100 flex-column">
+              <div class="d-flex flex-column">
+                <h6>Order History</h6>
+                <p class="light-text-100">
+                  Manage billing information and view receips
+                </p>
+              </div>
+
+              <div
+                class="d-flex w-100 align-items-center payment-method-container"
+              >
+                <img class="img-visa" src="assets/visa.png" />
+                <p class="fw-medium">Visa ending in 2255</p>
+                <button class="btn ms-auto btn-outline-secondary fs-6 btn-lg">
+                  Remove
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="
+              plan-container
+              mt-xl-0
+              d-flex
+              flex-column
+              align-self-xl-start align-self-stretch
+            "
+          >
+            <p>Your Plan</p>
+            <h4>Pro Annual</h4>
+            <p class="fs-7">Renews on Nov. 2021</p>
+            <button class="btn btn-outline-light fs-6 btn-lg">
+              Cancel Subscription
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
