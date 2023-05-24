@@ -19,17 +19,12 @@
   </head>
   <body>
     <div class="main-container">
-      <div
-        class="
-          vw-100
-          d-flex
-          flex-xl-row flex-column
-          billing-container
-          justify-content-between
-        "
-      >
+      <div class="vw-100 d-flex billing-container justify-content-between">
         <div class="retacle d-none d-xl-block"></div>
-        <nav class="d-xl-flex d-none sidebar-container flex-row flex-xl-column">
+        <div class="sidebar-toggle d-xl-none">
+          <i class="bi bi-list"></i>
+        </div>
+        <nav class="d-xl-flex d-none sidebar-container flex-column">
           <div class="d-flex w-100 profile-container align-items-center">
             <img class="profile-img" src="https://picsum.photos/200/300" />
             <div class="d-flex flex-column">
@@ -37,8 +32,8 @@
               <p class="light-text-100 fs-7">@batuhan</p>
             </div>
           </div>
-          <ul class="d-flex flex-xl-column flex-row w-100 h-100 light-text-100">
-            <li class="d-flex nav-li">
+          <ul class="d-flex flex-column w-100 light-text-100">
+            <li class="d-flex">
               <a
                 class="d-flex link-container light-text-100 align-items-center"
               >
@@ -46,7 +41,7 @@
                 <p class="fs-7 text-capitalize">general</p>
               </a>
             </li>
-            <li class="d-flex nav-li">
+            <li class="d-flex">
               <a
                 class="d-flex link-container light-text-100 align-items-center"
               >
@@ -54,7 +49,7 @@
                 <p class="fs-7 text-capitalize">Password</p>
               </a>
             </li>
-            <li class="d-flex nav-li">
+            <li class="d-flex">
               <a
                 class="d-flex link-container light-text-100 align-items-center"
               >
@@ -62,7 +57,7 @@
                 <p class="fs-7 text-capitalize">Invitations</p>
               </a>
             </li>
-            <li class="d-flex active nav-li">
+            <li class="d-flex active">
               <a
                 class="d-flex link-container light-text-100 align-items-center"
               >
@@ -70,7 +65,7 @@
                 <p class="fs-7 text-capitalize">Billing</p>
               </a>
             </li>
-            <li class="d-flex nav-li">
+            <li class="d-flex">
               <a
                 class="d-flex link-container light-text-100 align-items-center"
               >
@@ -78,7 +73,7 @@
                 <p class="fs-7 text-capitalize">Apps</p>
               </a>
             </li>
-            <li class="d-flex mt-xl-auto">
+            <li class="d-flex logout">
               <a
                 class="d-flex link-container light-text-100 align-items-center"
               >

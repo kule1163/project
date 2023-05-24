@@ -15,3 +15,12 @@ tableItems.forEach((item) => {
     item.classList.add("active");
   });
 });
+
+const sidebarToggle = document.querySelector(".sidebar-toggle");
+const sidebar = document.querySelector(".sidebar-container");
+
+sidebarToggle.addEventListener("click", () => {
+  sidebarToggle.classList.toggle("active-icon");
+
+  sidebar.classList.toggle("show-sidebar");
+});
